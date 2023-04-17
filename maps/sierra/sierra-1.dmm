@@ -21937,7 +21937,9 @@
 /obj/effect/floor_decal/corner/paleblue/bordercorner2{
 	dir = 1
 	},
-/obj/structure/closet/secure_closet/medical1_minimal,
+/obj/structure/closet/secure_closet/medical1_minimal{
+	req_access = list(list("ACCESS_EXPEDITION_SHUTTLE"))
+	},
 /turf/simulated/floor/tiled/white,
 /area/exploration_shuttle/medical)
 "IC" = (
