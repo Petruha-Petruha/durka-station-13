@@ -1534,8 +1534,8 @@
 	id_tag = "nuke_shuttle_dock_airlock_pump"
 	},
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 24;
-	dir = 8
+	dir = 8;
+	pixel_x = 24
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/fore)
@@ -2206,8 +2206,8 @@
 	dir = 4
 	},
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 24;
-	dir = 8
+	dir = 8;
+	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/shuttle/escape_pod/escape_pod1/station)
@@ -3645,8 +3645,8 @@
 	dir = 6
 	},
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 24;
-	dir = 8
+	dir = 8;
+	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/petrov/scan)
@@ -4826,8 +4826,8 @@
 	icon_state = "4-8"
 	},
 /obj/structure/extinguisher_cabinet{
-	pixel_y = -22;
-	dir = 1
+	dir = 1;
+	pixel_y = -22
 	},
 /turf/simulated/floor/plating,
 /area/quartermaster/hangar)
@@ -7254,8 +7254,8 @@
 	pixel_y = 26
 	},
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 24;
-	dir = 8
+	dir = 8;
+	pixel_x = 24
 	},
 /obj/structure/holoplant{
 	plant = "P-Apple Bush";
@@ -17359,8 +17359,8 @@
 	id_tag = "qmdoor-hallway";
 	name = "hallway door control";
 	pixel_x = 5;
-	req_access = list("ACCESS_QUARTERMASTER");
-	pixel_y = -2
+	pixel_y = -2;
+	req_access = list("ACCESS_QUARTERMASTER")
 	},
 /obj/effect/floor_decal/borderfloor{
 	dir = 8
@@ -17371,8 +17371,8 @@
 	id_tag = "qmdoor-supply";
 	name = "supply door control";
 	pixel_x = 5;
-	req_access = list("ACCESS_QUARTERMASTER");
-	pixel_y = 8
+	pixel_y = 8;
+	req_access = list("ACCESS_QUARTERMASTER")
 	},
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/grey/border{
@@ -18184,8 +18184,8 @@
 	dir = 4
 	},
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 24;
-	dir = 8
+	dir = 8;
+	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/dark,
 /area/hallway/primary/thirddeck/center)
@@ -21923,8 +21923,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aft)
 "IB" = (
-/obj/structure/bed/roller,
-/obj/structure/iv_drip,
 /obj/effect/floor_decal/borderfloor{
 	color = null;
 	dir = 9
@@ -21939,6 +21937,7 @@
 /obj/effect/floor_decal/corner/paleblue/bordercorner2{
 	dir = 1
 	},
+/obj/structure/closet/secure_closet/medical1_minimal,
 /turf/simulated/floor/tiled/white,
 /area/exploration_shuttle/medical)
 "IC" = (
@@ -24146,8 +24145,8 @@
 	dir = 4
 	},
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 24;
-	dir = 8
+	dir = 8;
+	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/shuttle/escape_pod/escape_pod3/station)
@@ -26115,8 +26114,8 @@
 /area/maintenance/thirddeck/aft)
 "PA" = (
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 24;
-	dir = 8
+	dir = 8;
+	pixel_x = 24
 	},
 /obj/effect/floor_decal/borderfloor{
 	dir = 6
@@ -28027,8 +28026,8 @@
 "SK" = (
 /obj/machinery/computer/ship/engines,
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 24;
-	dir = 8
+	dir = 8;
+	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/guppy_hangar/start)
@@ -29999,9 +29998,6 @@
 /turf/simulated/floor/tiled,
 /area/hydroponics/third_deck_storage)
 "WS" = (
-/obj/machinery/sleeper/survival_pod{
-	dir = 1
-	},
 /obj/effect/floor_decal/borderfloor{
 	color = null;
 	dir = 8
@@ -30014,6 +30010,8 @@
 	dir = 4;
 	pixel_y = 11
 	},
+/obj/structure/bed/roller,
+/obj/structure/iv_drip,
 /turf/simulated/floor/tiled/white,
 /area/exploration_shuttle/medical)
 "WT" = (
@@ -30080,8 +30078,8 @@
 	dir = 8
 	},
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 24;
-	dir = 8
+	dir = 8;
+	pixel_x = 24
 	},
 /obj/structure/cable/cyan{
 	d2 = 8;
@@ -30430,17 +30428,16 @@
 	dir = 4
 	},
 /obj/structure/table/reinforced,
-/obj/random/blood_packs,
-/obj/random/blood_packs,
 /obj/structure/closet/walllocker/medical/filled/shuttle{
 	pixel_y = 30
 	},
+/obj/item/defibrillator/loaded,
 /turf/simulated/floor/tiled/white,
 /area/exploration_shuttle/medical)
 "XK" = (
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 24;
-	dir = 8
+	dir = 8;
+	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/hangar)
@@ -30992,8 +30989,8 @@
 	},
 /obj/effect/catwalk_plated,
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 24;
-	dir = 8
+	dir = 8;
+	pixel_x = 24
 	},
 /turf/simulated/floor/plating,
 /area/quartermaster/hangar)
