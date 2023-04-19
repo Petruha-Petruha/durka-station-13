@@ -51,7 +51,7 @@
 
 	appearance_flags =        0
 	species_flags =           SPECIES_FLAG_NO_SCAN  | SPECIES_FLAG_NO_SLIP  | SPECIES_FLAG_NO_MINOR_CUT
-	spawn_flags =             SPECIES_CAN_JOIN | SPECIES_IS_WHITELISTED | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN
+	spawn_flags =             SPECIES_IS_RESTRICTED | SPECIES_IS_WHITELISTED | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN
 
 	heat_discomfort_strings = list(
 		"You feel brittle and overheated.",
@@ -153,7 +153,7 @@
 	blood_volume =         1200
 	spawns_with_stack =       0
 
-	spawn_flags =             SPECIES_CAN_JOIN | SPECIES_IS_WHITELISTED | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN
+	spawn_flags =             SPECIES_IS_RESTRICTED | SPECIES_IS_WHITELISTED | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN
 
 	pixel_offset_x =        -4
 	antaghud_offset_y =      18
